@@ -1,0 +1,44 @@
+POST http://localhost:8080/signIn
+Content-Type: application/json
+
+{
+  "email" : "gorshaya-viktoria@mail.ru",
+  "password": "12345678"
+}
+
+###
+
+GET http://localhost:8080/users
+Authorization: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwibmFtZSI6IlZpa2tpIiwicm9sZSI6IlVTRVIiLCJlbWFpbCI6ImdvcnNoYXlhLXZpa3RvcmlhQG1haWwucnUifQ.7r1btgcZ-zWxCxxTbyHNV7-4bcbe01oMtim8yVxiXd4
+
+###
+
+GET http://localhost:8080/users
+Authorization: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwibmFtZSI6IlZpa2tpIiwicm9sZSI6IlVTRVIiLCJlbWFpbCI6ImdvcnNoYXlhLXZpa3RvcmlhQG1haWwucnUifQ.7r1btgcZ-zWxCxxTbyHNV7-4bcbe01oMtim8yVxiXd4
+
+###
+
+#DELETE http://localhost:8080/users/3
+#Authorization: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwibmFtZSI6IlZpa2tpIiwicm9sZSI6IkFETUlOIn0.JIVqFRDsgbrfzrW9ct5qZBf1yWV6Xiep6TwiMvlKnnk
+
+###
+
+GET http://localhost:8080/self
+Authorization: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwibmFtZSI6IlZpa2tpIiwicm9sZSI6IkFETUlOIiwiZW1haWwiOiJnb3JzaGF5YS12aWt0b3JpYUBtYWlsLnJ1In0.pbTqcTPCGZuNmXNDljTyJGW_TZH6BPuf182hAUiptPU
+
+###
+
+GET http://localhost:8080/transports
+Authorization: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwibmFtZSI6IlZpa2tpIiwicm9sZSI6IkFETUlOIiwiZW1haWwiOiJnb3JzaGF5YS12aWt0b3JpYUBtYWlsLnJ1In0.pbTqcTPCGZuNmXNDljTyJGW_TZH6BPuf182hAUiptPU
+
+###
+
+GET http://localhost:8080/transport?id=26
+Authorization: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwibmFtZSI6IlZpa2tpIiwicm9sZSI6IkFETUlOIiwiZW1haWwiOiJnb3JzaGF5YS12aWt0b3JpYUBtYWlsLnJ1In0.pbTqcTPCGZuNmXNDljTyJGW_TZH6BPuf182hAUiptPU
+
+###
+
+GET http://localhost:8080/transport?id=26
+Authorization: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwibmFtZSI6IlZpa2tpIiwicm9sZSI6IlVTRVIiLCJlbWFpbCI6ImdvcnNoYXlhLXZpa3RvcmlhQG1haWwucnUifQ.7r1btgcZ-zWxCxxTbyHNV7-4bcbe01oMtim8yVxiXd4
+
+##
